@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Home Services Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Registration Container -->
+    <div class="form-container">
+
+        <div class="form-card">
+
+            <h2>Create Your Account</h2>
+
+            <p>
+                Join Home Services Booking App
+            </p>
+
+
+            <!-- Registration Form -->
+            <form id="signupForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                    required
+                >
+
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required
+                >
+
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    required
+                >
+
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm Password"
+                    required
+                >
+
+
+                <select id="role" required>
+
+                    <option value="">
+                        Select Account Type
+                    </option>
+
+                    <option value="user">
+                        Customer
+                    </option>
+
+                    <option value="provider">
+                        Service Provider
+                    </option>
+
+                </select>
+
+
+                <button type="submit">
+                    Register
+                </button>
+
+            </form>
+
+
+            <!-- Login Link -->
+            <p>
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </p>
+
+
+            <!-- Home Link -->
+            <p>
+
+                <a href="index.html">
+                    ← Back to Home
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="signup.js"></script>
+
+</body>
+
+</html>

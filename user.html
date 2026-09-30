@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Dashboard - Home Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="dashboard-header">
+
+        <h2>
+            Home Services Booking App
+        </h2>
+
+        <button
+            onclick="logout()"
+            class="logout-btn">
+
+            Logout
+
+        </button>
+
+    </header>
+
+
+    <!-- User Dashboard -->
+    <div class="user-container">
+
+        <h1>
+            Customer Dashboard
+        </h1>
+
+
+        <!-- Welcome Message -->
+        <div class="profile-card">
+
+            <h2>
+                Welcome, <span id="welcomeName"></span>!
+            </h2>
+
+            <p>
+                Manage your home services and bookings
+                from your dashboard.
+            </p>
+
+        </div>
+
+
+        <!-- Profile -->
+        <div class="profile-card">
+
+            <h2>
+                Customer Profile
+            </h2>
+
+
+            <div class="profile-item">
+
+                <strong>ID :</strong>
+
+                <span id="userId"></span>
+
+            </div>
+
+
+            <div class="profile-item">
+
+                <strong>Name :</strong>
+
+                <span id="userName"></span>
+
+            </div>
+
+
+            <div class="profile-item">
+
+                <strong>Email :</strong>
+
+                <span id="userEmail"></span>
+
+            </div>
+
+
+            <div class="profile-item">
+
+                <strong>Phone :</strong>
+
+                <span id="userPhone"></span>
+
+            </div>
+
+
+            <div class="profile-item">
+
+                <strong>Role :</strong>
+
+                <span id="userRole"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Services -->
+        <div class="profile-card">
+
+            <h2>
+                Home Services
+            </h2>
+
+            <p>
+                Book professional services for your home.
+            </p>
+
+            <a href="services.html" class="btn">
+                Browse Services
+            </a>
+
+        </div>
+
+
+        <!-- My Bookings -->
+        <div class="profile-card">
+
+            <h2>
+                My Bookings
+            </h2>
+
+            <p>
+                View and manage your service bookings.
+            </p>
+
+            <a href="booking.html" class="btn">
+                View Bookings
+            </a>
+
+        </div>
+
+
+        <!-- Track Service -->
+        <div class="profile-card">
+
+            <h2>
+                Track Service
+            </h2>
+
+            <p>
+                Check the current status of your service.
+            </p>
+
+            <a href="tracking.html" class="btn">
+                Track Service
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="user.js"></script>
+
+</body>
+
+</html>
